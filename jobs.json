@@ -1,3 +1,132 @@
-{
-  
-}
+[
+  {
+    "id": "12345678jobid",
+    "name": "NAS 2019-21",
+    "service_type": "NAS",
+    "balance_date": "12-31",
+    "librarian": {
+      "id": "1234",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    "customer": {
+      "id": "12344321",
+      "cvr": "12345678cvr",
+      "name": "Fake Company A/S",
+      "csp": {
+        "id": "1234csp",
+        "name": "CSP Employee",
+        "email": "csp.employee@example.com"
+      },
+      "em": {
+        "id": "1234em",
+        "name": "EM Employee",
+        "email": "em.employee@example.com"
+      },
+      "ep": null
+    },
+    "employees": [
+      {
+        "id": "1234emp1",
+        "name": "Foo Bar",
+        "email": "foo.bar@example.com"
+      },
+      {
+        "id": "1234emp2",
+        "name": "Bar Foo",
+        "email": "bar.foo@example.com"
+      }
+    ],
+    "tasks": null
+  },
+  {
+    "id": "87654321jobid",
+    "name": "Udvidet gennemgang 2020-01",
+    "service_type": "Udvidet gennemgang",
+    "balance_date": "01-31",
+    "librarian": {
+      "id": "1234",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    "customer": {
+      "id": "12344321",
+      "cvr": "12345678cvr",
+      "name": "Company Shop A/S",
+      "csp": {
+        "id": "1234csp",
+        "name": "CSP Employee",
+        "email": "csp.employee@example.com"
+      },
+      "em": {
+        "id": "1234em",
+        "name": "EM Employee",
+        "email": "em.employee@example.com"
+      },
+      "ep": {
+        "id": "1234ep",
+        "name": "EP Employee",
+        "email": "ep.employee@example.com"
+      }
+    },
+    "employees": [
+      {
+        "id": "1234emp1",
+        "name": "Foo Bar",
+        "email": "foo.bar@example.com"
+      },
+      {
+        "id": "1234emp2",
+        "name": "Bar Foo",
+        "email": "bar.foo@example.com"
+      }
+    ],
+    "tasks": [
+      {
+        "comment": null,
+        "completed_at": null,
+        "created_at": "2020-01-08T12:52:08",
+        "deadline": null,
+        "id": 1,
+        "phase": "Planlægning",
+        "responsible": null,
+        "completed": false,
+        "status_external": false,
+        "name": "E-risk",
+        "updated_at": null,
+        "updated_by": null,
+        "enabled": true
+      },
+      {
+        "comment": null,
+        "completed_at": "2020-01-08T13:50:00",
+        "created_at": "2020-01-08T12:52:08",
+        "deadline": null,
+        "id": 2,
+        "phase": "Udførelse",
+        "responsible": null,
+        "completed": true,
+        "status_external": false,
+        "name": "Databehandleraftale",
+        "updated_at": null,
+        "updated_by": null,
+        "enabled": true
+      },
+      {
+        "comment": null,
+        "completed_at": null,
+        "created_at": "2020-01-08T12:52:08",
+        "deadline": null,
+        "id": 3,
+        "phase": "Afslutning",
+        "responsible": null,
+        "completed": false,
+        "status_external": false,
+        "name": "Forretningsorden",
+        "updated_at": null,
+        "updated_by": null,
+        "enabled": false
+      }
+    ]
+  }
+]
